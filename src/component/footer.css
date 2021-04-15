@@ -1,0 +1,29 @@
+.footer {
+    margin: 0 0 47px 0;
+    padding: 13px;
+    width: 100%;
+    border-top: 2px solid #ddd;
+}
+.footer:after, .footer:before {
+    box-sizing: border-box;
+}
+.f-main {
+    text-align: cneter !important;
+    align-items: center !important;
+    display: flex !important;
+}
+.f-text {
+    white-space: nowrap;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #888686;
+}
+.pointer {
+    cursor: pointer;
+}
+.pointer a {
+    text-decoration: none;
+    color: #888686;
+}
+

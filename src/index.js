@@ -7,6 +7,11 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <div className="f-home" >
+      <button className="add-button btn btn-outline-info" style={{display:"block"}}>
+        Add hodlinfo to home screen
+      </button>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

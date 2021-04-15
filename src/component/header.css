@@ -1,0 +1,281 @@
+.h-main {
+    align-items: center!important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.h-left{
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.h-left a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.h-l-i {
+    padding: none !important;
+}
+.fiat-logo {
+    width: 80%;
+}
+.h-l-t {
+    font-family: Oswald, sans-serif;
+    margin-top: -18px;
+    opacity: 0.8;
+    font-size: 18px;
+    color: gray;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.h-middle {
+    padding: 0 !important;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.btn-group {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.header-button {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 2px #ddd;
+    position: relative;
+    flex: 1 1 auto;
+    margin: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+}
+.btn-h::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.h-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.h-right1 {
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    display: inline-flex !important;
+}
+.Progressbar {
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+}
+.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+}
+svg {
+    overflow: hidden;
+}
+.CircularProgressbar-trail {
+    stroke-dasharray: 289.027px, 289.027px; 
+    stroke-dashoffset: 0px;
+    stroke: #d6d6d6;
+    stroke-linecap: round;
+}
+.CircularProgressbar-path {
+    stroke-dasharray: 289.027px, 289.027px; 
+    stroke-dashoffset: 183.05px;
+    stroke: #3dc6c1!important;
+}
+.CircularProgressbar-text {
+    fill: #3dc6c1!important;
+    font-size: 44px!important;
+    font-weight: 500;
+    fill: #3e98c7;
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+.theme-btn {
+    margin: 10px;
+    display: inline-block !important;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transition: .4s;
+    background-color: #f8f9fa;
+    border-radius: 34px;
+    box-shadow: 0 0 2px #ddd;
+}
+.slider::before {
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #3dc6c1;
+    position: absolute;
+    transition: .4s;
+    border-radius: 50%;
+}
+.color-white {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.telegram-header {
+    display: flex!important;
+    align-items: center!important;
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: #fff!important;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+.telegram-logo {
+    height: 15px;
+    margin-right: 10px;
+}
+.text-nowrap {
+    white-space: nowrap!important;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 576px){
+.h-main {
+    justify-content: center!important;
+}
+.h-left {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.h-l-i {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.h-middle {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.h-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+@media (min-width: 768px){
+.h-left {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.h-l-i {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.h-middle {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.h-right {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+}
+
+@media (min-width: 992px){
+.h-left {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.h-l-i {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+.h-middle {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.h-right {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+
+@media screen and (min-width: 1400px) {
+    .fiat-logo{
+      width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 960px){
+.header-button{
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+}

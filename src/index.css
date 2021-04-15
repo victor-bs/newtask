@@ -6,8 +6,53 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*, :after, :before {
+  box-sizing: border-box;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.f-home {
+  border:solid 1px #191d28;
+  background-color:#191d28;
+  position:fixed;
+  left:0;
+  align-items:center;
+  width:100vw;
+  height:47px;
+  bottom:0;
+  z-index:8;
+  justify-content: center !important;
+  display: flex;
+  }
+  .f-home button {
+      color: #17a2b8;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: transparent;
+      border: 1px solid #17a2b8;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: .15s ease-in-out;
+      cursor: pointer;
+  }
+  .f-home button:hover {
+      color: #fff;
+      background-color: #17a2b8;
+      border-color: #17a2b8;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }
